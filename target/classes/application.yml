@@ -1,0 +1,7 @@
+server:  port: 9082  
+spring:
+#  thymeleaf:
+#    prefix: classpath:/static/, classpath:/templates/
+#    suffix: .html
+  resources:
+    static-locations: classpath:/templates/    logging:  level:    root: info
