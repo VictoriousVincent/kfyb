@@ -1,4 +1,4 @@
-package com.icbc.bjfh.kfyb;
+package com.icbc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
