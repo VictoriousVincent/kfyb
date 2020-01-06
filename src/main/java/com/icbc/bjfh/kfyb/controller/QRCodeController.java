@@ -5,20 +5,17 @@ import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
-import com.google.zxing.client.j2se.MatrixToImageWriter;
-import com.google.zxing.common.BitMatrix;
+import org.springframework.web.bind.annotation.RestController;
+
 import com.icbc.bjfh.kfyb.qrcode.QRCodeUtil;
 
-@Controller
+@RestController
 @RequestMapping("/qrcode")
 public class QRCodeController {
 
     @RequestMapping(value = "/generateqrcode", method = RequestMethod.GET)
-    @ResponseBody
     public void generateQRCode4Product(HttpServletRequest request, HttpServletResponse response) {
         String longUrl;
         String imgPath;
