@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: kfyb
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: ICBC
+Built-By: Admin
 Implementation-Vendor-Id: com.icbc.bjfh
-Build-Jdk: 1.8.0_181
+Build-Jdk: 1.8.0_241
 Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
  ot-starter-parent/kfyb
 Created-By: Maven Integration for Eclipse
